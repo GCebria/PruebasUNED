@@ -29,3 +29,47 @@ footer {
   }
   .row.content {height:auto;}
 }
+
+/*LABELS*/
+
+}
+
+labels.less:9
+.label {
+    /* display: inline; */
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    /* line-height: 1; */
+    color: #fff;
+    align: left;
+    text-align: left;
+    /* white-space: nowrap; */
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.label-guia {
+  background-color: #BC4002;
+  text-decoration: none;
+  color: #FFF;
+}
+.label-guia[href]:hover,
+.label-guia[href]:focus {
+  background-color: #993300;
+}
+.label-soyalumno {
+  background-color: #5D4485;
+}
+.label-success[href]:hover,
+.label-success[href]:focus {
+  background-color: #449d44;
+}
+
+.parrafo{
+  text-align: justify;
+  text-justify: inter-word;
+}
+.row-m-t{
+  margin-top : 20px
+}
