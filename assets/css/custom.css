@@ -73,3 +73,28 @@ labels.less:9
 .row-m-t{
   margin-top : 20px
 }
+
+.carousel-inner > .item > img {
+  width:640px;
+  height:360px;
+}
+
+.thumbnail {
+    background-color: #d8d8d8;
+    height: inherit;
+    margin-top: 17px;
+    margin-bottom: 15px;
+    border-right: 4px solid #fff;
+}
+
+.thumbnail-experto{
+   background-color: #79c7c7;
+}
+
+.thumbnail-promocion{
+   background-color: #FFDB00;
+}
+
+.thumbnail-clinica{
+   background-color: #C797C3;
+}

@@ -10,6 +10,7 @@
 
 </head>
 <body>
+
 <div class="container">
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
@@ -70,20 +71,23 @@
 
 
 <div class="container">
-  <h2>Carousel Example</h2>
+    <div class="row row-m-t"> 
+  <div class="col-md-1"></div>
+  <div class="col-xs-12 col-md-10">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
+	  <li data-target="#myCarousel" data-slide-to="3"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
 
       <div class="item active">
-        <img src="la.jpg" alt="Los Angeles" style="width:100%;">
+        <img src="assets/images/1.jpg" alt="Los Angeles" style="width:100%;">
         <div class="carousel-caption">
           <h3>Matriculate!</h3>
           <p>Periodo de matricula de Septiembre a Diciembre</p>
@@ -91,7 +95,7 @@
       </div>
 
       <div class="item">
-        <img src="chicago.jpg" alt="Chicago" style="width:100%;">
+        <img src="assets/images/2.jpg" alt="Chicago" style="width:100%;">
         <div class="carousel-caption">
           <h3>Noticias</h3>
           <p>Entérate de las últimas noticias</p>
@@ -99,7 +103,7 @@
       </div>
     
       <div class="item">
-        <img src="ny.jpg" alt="New York" style="width:100%;">
+        <img src="assets/images/3.jpeg" alt="New York" style="width:100%;">
         <div class="carousel-caption">
           <h3>Jornadas universitarias</h3>
           <p>Jornadas universitarias de Salud Sexual</p>
@@ -107,14 +111,12 @@
       </div>
 
       <div class="item">
-        <img src="ny.jpg" alt="New York" style="width:100%;">
+        <img src="assets/images/4.jpeg" alt="New York" style="width:100%;">
         <div class="carousel-caption">
           <h3>Clases 2016</h3>
           <p>Congreso virtual</p>
         </div>
       </div>
-  
-  
     </div>
 
     <!-- Left and right controls -->
@@ -126,15 +128,49 @@
       <span class="glyphicon glyphicon-chevron-right"></span>
       <span class="sr-only">Next</span>
     </a>
+   </div>
   </div>
+  <div class="col-md-1"></div>
 </div>
 
+<div class="container">
+    <div class="row row-m-t"> 
+      <div class="content">
+        <div class="col-xs-12 col-md-12">
 
+        <div class="thumbnail thumbnail-experto col-md-3">
+              <h3>Experto en Sexualidad humana Educación Sexual </h3>
+              <ul class="list-unstyled">
+                <li><a href="http://portal.uned.es/portal/page?_pageid=93,19108320&amp;_dad=portal&amp;_schema=PORTAL" title="Admisión y matrícula">Admisión y matrícula</a></li>
+                <li><a href="http://portal.uned.es/portal/page?_pageid=93,14022320&amp;_dad=portal&amp;_schema=PORTAL" title="Becas y ayudas">Becas y ayudas</a></li>
+              </ul>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="thumbnail thumbnail-promocion col-md-3">
+              <h3>Máster en Promoción de la Salud Sexual </h3>
+              <ul class="list-unstyled">
+                <li><a href="http://portal.uned.es/portal/page?_pageid=93,19108320&amp;_dad=portal&amp;_schema=PORTAL" title="Admisión y matrícula">Admisión y matrícula</a></li>
+                <li><a href="http://portal.uned.es/portal/page?_pageid=93,14022320&amp;_dad=portal&amp;_schema=PORTAL" title="Becas y ayudas">Becas y ayudas</a></li>
+              </ul>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="thumbnail thumbnail-clinica col-md-3">
+              <h3>Máster en Salud Sexual y Sexología Clínica </h3>
+              <ul class="list-unstyled">
+                <li><a href="http://portal.uned.es/portal/page?_pageid=93,19108320&amp;_dad=portal&amp;_schema=PORTAL" title="Admisión y matrícula">Admisión y matrícula</a></li>
+                <li><a href="http://portal.uned.es/portal/page?_pageid=93,14022320&amp;_dad=portal&amp;_schema=PORTAL" title="Becas y ayudas">Becas y ayudas</a></li>
+              </ul>
+        </div>
+
+        </div>
+      </div>
+    </div>
+</div>    
 
 
 <div class="container">
     <div class="row row-m-t"> <div class="content">
-
+    <!--
       <div class="col-xs-12 col-md-1">
         <p class="col-xs-3 col-md-12 label label-soyalumno ">Guía del curso</p>
         <div class="col-xs-1"></div>
@@ -149,8 +185,8 @@
         <p class="col-xs-3 col-md-12 label label-warning">Clases 2016 (Congreso virtual)</p>
       </div>
 
-
-      <div class="col-xs-12 col-md-11">
+-->
+      <div class="col-xs-12 col-md-12">
         <h1>Programa modular de formación en Salud Sexual</h1>
         <p class="parrafo">El programa de Formación en
           <a href="http://www2.uned.es/saludsexual/youtube1.htm">Salud Sexual de la UNED</a>
@@ -169,14 +205,14 @@
               <div class="row">
           <div class="col-lg-3 col-md-6 text-center">
               <div class="service-box">
-                  <i class="fa fa-4x fa-clock-o text-primary sr-icons"></i>
+                  <i class="fa fa-4x fa-clock-o text-uned sr-icons"></i>
                   <h3>Es el momento</h3>
                   <p class="text-muted">La formación en sexología representa ahora una <b>excelente oportunidad profesional.</p>
               </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
               <div class="service-box">
-                  <i class="fa fa-4x fa-trophy text-primary sr-icons"></i>
+                  <i class="fa fa-4x fa-trophy text-uned sr-icons"></i>
                   <h3>Calidad </h3>
                   <p class="text-muted">El programa de Formación en Salud Sexual de la UNED es una oferta de la <b>máxima calidad</b> en
             los ámbitos de la salud, la educación y la intervención social y comunitaria.</p>
@@ -184,7 +220,7 @@
           </div>
           <div class="col-lg-3 col-md-6 text-center">
               <div class="service-box">
-                  <i class="fa fa-4x fa-handshake-o text-primary sr-icons"></i>
+                  <i class="fa fa-4x fa-handshake-o text-uned sr-icons"></i>
                   <h3>Profesionalidad </h3>
                   <p class="text-muted">Las titulaciones que ofrece este programa modular son las idóneas para el <b>desarrollo profesional</b>
              de educadores, enfermeras, matronas, psicólogos y médicos.</p>
@@ -192,7 +228,7 @@
           </div>
           <div class="col-lg-3 col-md-6 text-center">
               <div class="service-box">
-                  <i class="fa fa-4x fa-graduation-cap text sr-icons"></i>
+                  <i class="fa fa-4x fa-graduation-cap text-uned sr-icons"></i>
                   <h3>Formación </h3>
                   <p class="text-muted">Los objetivos que se tratan de alcanzar con este programa de cubren las <b>principales áreas de formación personal y profesional</b> de nuestros estudiantes.</p>
               </div>
@@ -242,6 +278,101 @@
     </div>
   </div>
 </div>
+
+
+<footer class="contenedorpie">
+    <a id="pie"></a><!--enlace directo a menu pie accesibilidad -->
+        
+        <!-- ENLACES PIE DE PÁGINA -->
+        <div class="enlacespie row">
+           <!-- inicio corse -->   
+          <div class="corse"> 
+            <div class="col-sm-6 col-md-3 col-lg-3">
+                    <h3>LA UNED</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="http://www.fundacion.uned.es/" title="Fundación UNED">Fundación UNED</a></li>
+                        <li><a href="http://portal.uned.es/portal/page?_pageid=93,489793,93_20500245,93_34368369&amp;_dad=portal&amp;_schema=PORTAL" title="Inst. Univ. de Educ. a Distancia">Inst. Univ. de Educ. a Distancia</a></li>
+                        <li><a href="/pls/portal/url/page/UNED_MAIN/LAUNIVERSIDAD/PATROCINIOS/" title="Patrocinadores">Patrocinadores</a></li>
+                        <li><a href="http://portal.uned.es/portal/page?_pageid=93,176876&amp;_dad=portal&amp;_schema=PORTAL" title="Boletín Interno de Coordinación Informativa"><abbr title="Boletín Interno de Coordinación Informativa">B.I.C.I.</abbr></a></li>
+                        <li><a href="/pls/portal/url/page/UNED_MAIN/LAUNIVERSIDAD/VICERRECTORADOS/GERENCIA/GESTION%20ECONOMICA/CONTRATACION/PROCEDIMIENTOS%20ABIERTOS/" title="Perfil Contratante">Perfil Contratante</a></li>
+                    </ul>
+            </div>
+    
+            <div class="col-sm-6 col-md-3 col-lg-3">
+                    <h3>SERVICIOS AL ESTUDIANTE</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="http://coie-server.uned.es" title="Orientación y Empleo">Orientación y Empleo</a></li>
+                        <li><a href="/pls/portal/url/page/UNED_MAIN/LAUNIVERSIDAD/VICERRECTORADOS/EXTENSION/DICAP/" title="Discapacidad">Discapacidad</a></li>
+                        <li><a href="/pls/portal/url/page/UNED_MAIN/DEFENSORUNIVERSITARIO/" title="Defensor Universitario">Defensor Universitario</a></li>
+                        <li><a href="/pls/portal/url/page/UNED_MAIN/INFORMACIONGENERAL/" title="Atención al estudiante">Atención al estudiante</a></li>
+                        <li><a href="/pls/portal/url/page/UNED_MAIN/SERVICIOSGENERALES/CALENDARIO/" title="Calendario Académico">Calendario Académico</a></li>
+                    </ul>
+            </div>
+    
+    
+            <div class="col-sm-6  col-md-3 col-lg-2">
+                    <h3>EDUCACIÓN Y CULTURA</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="/pls/portal/url/page/UNED_MAIN/LAUNIVERSIDAD/CULTURA_Y_DEPORTE/" title="Cultura y Deporte">Cultura y Deporte</a></li>
+                        <li><a href="http://unedabierta.uned.es/" title="Cursos en abierto">Cursos en abierto</a></li>
+                        <li><a href="/pls/portal/url/page/UNED_MAIN/BIBLIOTECA/COPY_OF_BIBLIOTECAS/" title="Bibliotecas">Bibliotecas</a></li>
+                        <li><a href="http://www.librosuned.com" title="Librería Virtual">Librería Virtual</a></li>
+                        <li><a href="/pls/portal/url/page/UNED_MAIN/LAUNIVERSIDAD/VICERRECTORADOS/MEDIOS/PUBLICACIONES/" title="Editorial UNED">Editorial UNED</a></li>
+                    </ul>
+            </div>
+    
+    
+            <div class="col-sm-2 col-lg-2 visible-lg">
+                    <h3>LA UNED EN LA RED</h3>
+                    <ul class="list-inline">
+                        <li><a href="http://www.facebook.com/UNED.ES" title="facebook"><i class="fa fa-facebook fa-2x "></i><span class="sr-only">facebook</span></a></li>
+                        <li><a href="http://twitter.com/#!/uned" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i><span class="sr-only">Twitter</span></a></li>
+                        <li><a href="http://www.youtube.com/user/uned?gl=ES&amp;hl=es" title="fYoutTube"><i class="fa fa-youtube-square fa-2x"></i><span class="sr-only">Youtube</span></a></li>
+                        <li><a href="http://www.linkedin.com/company/uned" title="Linkedin"><i class="fa fa-linkedin-square fa-2x"></i><span class="sr-only">Linkedin</span></a></li>
+                        <li><a href="http://j2ee.uned.es/Comunicacion/rss/rsscomunicados.jsp" title="RSS/feed"><i class="fa fa-rss-square fa-2x"></i><span class="sr-only">RSS/feed</span></a></li>
+                    </ul>
+            </div>
+          <div class="col-sm-6 col-md-3 col-lg-2 patrocinadores">                     
+                  <!-- esta capa se activa cuando la resolución es menor de LG mostrando el listado encimade los banners -->     
+                  <div class="redessociales_small">           
+             <h3>LA UNED EN LA RED</h3>   
+             <ul class="list-inline hidden-lg">
+              <li><a href="http://www.facebook.com/UNED.ES" title="facebook"><i class="fa fa-facebook fa-2x "></i><span class="sr-only">facebook</span></a></li>
+              <li><a href="http://twitter.com/#!/uned" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i><span class="sr-only">Twitter</span></a></li>
+              <li><a href="http://www.youtube.com/user/uned?gl=ES&amp;hl=es" title="fYoutTube"><i class="fa fa-youtube-square fa-2x"></i></a><span class="sr-only">YoutTube</span></li>
+              <li><a href="http://www.linkedin.com/company/uned" title="Linkedin"><i class="fa fa-linkedin-square fa-2x"></i><span class="sr-only">Linkedin</span></a></li>
+              <li><a href="http://j2ee.uned.es/Comunicacion/rss/rsscomunicados.jsp" title="RSS/feed"><i class="fa fa-rss-square fa-2x"></i><span class="sr-only">RSS/feed</span></a></li>
+            </ul>
+                  </div> <!-- FIN DE LA capa se activa cuando la resolución es menor de LG mostrando el listado encimade los banners --> 
+    
+                <ul class="list-unstyled">                
+          <li class="lead list-unstyled"><a href="http://www.educacion.gob.es/portada.html" target="_blank" title="Gobierno de España. Ministerio de Educación"><img src="/NUEVOWEB/IMAGENES/logo_MECD.GIF" width="141" height="35" title="Gobierno de España. Ministerio de educación, cultura y deporte" alt="Gobierno de España. Ministerio de educación, cultura y deporte" longdesc="http://www.educacion.gob.es/portada/"> </a></li>
+          <li class="lead list-unstyled"><a href="http://portal.uned.es/portal/page?_pageid=93,1376452,93_20553130&amp;_dad=portal&amp;_schema=PORTAL"><img src="/NUEVOWEB/IMAGENES/feder.gif" width="141" height="54" alt="Fondo Europeo de Desarrollo Regional" title="Fondo Europeo de Desarrollo Regional"></a></li>
+          <li class="lead list-unstyled"><a href="http://www.universia.es/index.htm" title="Universia España. Portal de las Universidades españolas" target="_blank"><img src="/NUEVOWEB/IMAGENES/universia.gif" width="141" height="19" alt="Universia España" title="Universia España"></a></li>
+                </ul>
+          </div>
+          <!-- fin corse -->   
+         </div>  
+        </div>
+        <!-- FIN ENLACES PIE DE PÁGINA -->
+            <!-- copyright -->
+            <div class="copyright row">
+                <ul class="list-inline ">
+                            <li><a href="http://portal.uned.es/portal/page?_pageid=93,176653&amp;_dad=portal&amp;_schema=PORTAL" title="Mapa web" accesskey="m">Mapa web</a> |</li> 
+                            <li><a href="http://j2ee.uned.es/Comunicacion/rss/rsscomunicados.jsp" title="RSS: Notas de Prensa UNED">RSS</a>  |</li>
+                            <li><a href="http://portal.uned.es/portal/page?_pageid=93,150738,93_20542783&amp;_dad=portal&amp;_schema=PORTAL" title="Contacta" accesskey="c">Contacta</a>  |</li> 
+                            <li><a href="http://portal.uned.es/portal/page?_pageid=93,171803&amp;_dad=portal&amp;_schema=PORTAL" title="Accesibilidad" accesskey="a">Accesibilidad</a> |</li> 
+                            <li><a href="https://descargas.uned.es/publico/pdf/Politica_privacidad_UNED.pdf" title="Política de privacidad">Política de privacidad</a> |</li> 
+                            <li><a href="https://descargas.uned.es/publico/pdf/Aviso_Legal_UNED.pdf" title="Nota legal" accesskey="n">Nota legal</a> |</li>
+                            <li><a href="http://portal.uned.es/portal/page?_pageid=93,46306875&amp;_dad=portal&amp;_schema=PORTAL" title="Política de cookies" accesskey="p">Política de cookies</a> |</li>
+                            <li><a href="http://portal.uned.es/portal/page?_pageid=93,150738,93_20542783&amp;_dad=portal&amp;_schema=PORTAL" title="ATENCIÓN AL ESTUDIANTE"><strong>ATENCIÓN AL ESTUDIANTE</strong></a></li>
+                            
+                  </ul>
+            </div>
+            <!-- Fin de copyright -->
+
+       </footer>
+
 
 <script type="text/javascript" src="assets/jquery/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>

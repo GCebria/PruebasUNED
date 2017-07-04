@@ -1339,6 +1339,9 @@ mark,
 .text-primary {
   color: #337ab7;
 }
+.text-uned{
+  color: #01573C;
+}
 a.text-primary:hover,
 a.text-primary:focus {
   color: #286090;
@@ -6427,7 +6430,8 @@ button.close {
   padding-bottom: 20px;
   color: #fff;
   text-align: center;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    background: rgba(113, 114, 114, 0.6);
+    text-shadow: 0 1px 2px rgba(5, 4, 4, 1);
 }
 .carousel-caption .btn {
   text-shadow: none;
