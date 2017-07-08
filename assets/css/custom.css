@@ -85,17 +85,27 @@ labels.less:9
     margin-top: 17px;
     margin-bottom: 15px;
     border-right: 4px solid #fff;
+
 }
 
 .thumbnail-experto{
    background-color: #79c7c7;
    padding: 1.1em;
+   border-radius: 15px;
 }
 
 .thumbnail-promocion{
    background-color: #FFDB00;
+border-radius: 15px;
 }
 
 .thumbnail-clinica{
    background-color: #C797C3;
+
+border-radius: 15px;
 }
+
+.imagen-carousel{
+  background-size: cover ;
+}
+
