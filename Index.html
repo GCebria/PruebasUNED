@@ -11,264 +11,262 @@
 </head>
 <body>
 
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="assets/images/logo_uned.gif" alt="" style="width:40px;height:40px; margin-top:-10px;"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="Index.html">Presentación</a></li>  
+            <li><a href="Noticias.html">Últimas noticias</a></li>
 
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#"><img src="assets/images/logo_uned.gif" alt="" style="width:30px;height:30px; margin-top:-5px;"></a>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Presentación <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Objetivos</a></li>
-              <li><a href="#">Oportunidad</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Calidad</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Desarrollo profesional</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Contenidos</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Metodología <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Experto</a></li>
-              <li><a href="#">Promoción</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Sexología clínica</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Listado de materias</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Profesores <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Listado</a></li>
-              <li><a href="#">Dirección</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Profesores UNED</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Colaboradores</a></li>
-              <li><a href="#">Instituciones</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Más información</a></li>
+            <li class="dropdown">
+              <a href="Index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contenidos <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#" onclick="descargarGuia()">Guía curso 2016/2017</a></li>
+                <li><a href="#">Objetivos</a></li>
+                <li><a href="#">Oportunidad</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Calidad</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Desarrollo profesional</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Metodología <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Experto</a></li>
+                <li><a href="#">Promoción</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Sexología clínica</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Listado de materias</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Profesores <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Listado</a></li>
+                <li><a href="#">Dirección</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Profesores UNED</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Colaboradores</a></li>
+                <li><a href="#">Instituciones</a></li>
+              </ul>
+            </li>
+            <li><a href="masinfo.html">Más información</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Ya soy alumno</a></li>
         </ul>
-        <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Ya soy alumno</a></li>
-      </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
 
-<!--CAROUSEL-->
+  <!--CAROUSEL-->
 
-<div class="container">
+  <div class="container">
     <div class="row row-m-t"> 
-  <div class="col-md-1"></div>
-  <div class="col-xs-12 col-md-10">
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-	  <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
+    <div class="col-md-1"></div>
+    <div class="col-xs-12 col-md-10">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
 
-      <div class="item active">
-        <img src="assets/images/1.jpg" alt="Los Angeles" style="width:100%;">
-        <div class="carousel-caption">
-          <h3>Matriculate!</h3>
-          <p>Periodo de matricula de Septiembre a Diciembre</p>
+        <div class="item active">
+          <img src="assets/images/1.jpg" alt="Los Angeles" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>Matriculate!</h3>
+            <p>Periodo de matricula de Septiembre a Diciembre</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="assets/images/2.jpg" alt="Chicago" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>Noticias</h3>
+            <p>Entérate de las últimas noticias</p>
+          </div>
+        </div>
+      
+        <div class="item">
+          <img src="assets/images/3.jpeg" alt="New York" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>Jornadas universitarias</h3>
+            <p>Jornadas universitarias de Salud Sexual</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="assets/images/6.jpg" alt="New York" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>Clases 2016</h3>
+            <p>Congreso virtual</p>
+          </div>
         </div>
       </div>
 
-      <div class="item">
-        <img src="assets/images/2.jpg" alt="Chicago" style="width:100%;">
-        <div class="carousel-caption">
-          <h3>Noticias</h3>
-          <p>Entérate de las últimas noticias</p>
-        </div>
-      </div>
-    
-      <div class="item">
-        <img src="assets/images/3.jpeg" alt="New York" style="width:100%;">
-        <div class="carousel-caption">
-          <h3>Jornadas universitarias</h3>
-          <p>Jornadas universitarias de Salud Sexual</p>
-        </div>
-      </div>
-
-      <div class="item">
-        <img src="assets/images/4.jpeg" alt="New York" style="width:100%;">
-        <div class="carousel-caption">
-          <h3>Clases 2016</h3>
-          <p>Congreso virtual</p>
-        </div>
-      </div>
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+     </div>
     </div>
+    <div class="col-md-1"></div>
+  </div>
+</div>
 
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
+  <div class="container">
+    <div class="row row-m-t"> 
+      <section class="">
+        <div class="container">
+
+              <div class="col-md-12  bg-uned fondo-libros text-center" >
+                <div class="col-md-12">
+                <h2 class="section-heading text-white">Nuestra oferta formativa</h2>
+                    <hr class="light">
+                    <p class="text-faded" aria-expanded="false">El programa de Formación en
+                    <a href="http://www2.uned.es/saludsexual/youtube1.htm" style="color:white;"><u>Salud Sexual de la UNED</u></a>
+                    da respuesta a una
+                    necesidad ampliamente sentida entre diferentes grupos profesionales. Este
+                    programa universitario proporciona un marco formativo de calidad y con el máximo
+                    rigor científico y técnico. El objetivo es capacitar a nuestros alumnos para su desempeño
+                    profesional como sexólogos, en los distintos ámbitos en que se desarrollen su trabajo
+                    (Educación para la salud sexual. Promoción de la salud sexual, Sexología clínica),
+                    ofreciéndoles un completo programa de formación teórico-práctico</p>
+                  </div>
+                  <div class="col-md-12">  
+                    <a href="#" class="btn btn-success btn-xl" data-sr-id="6">Inscríbete!</a>
+                  </div>
+              </div>
+
+        </div>
+      </section>    
+    </div>
+  </div>
+
+
+     
+  <!-- THUMBNAILS -->
+ <div class="container">
+   <div class="row row-m-t"> 
+     <div class="col-xs-12 col-md-12 text-center">
+      <h2>Programa modular de formación en Salud Sexual</h2>
+      <hr>
+        <div class="col-sm-12 col-md-4"> 
+        <div class="label thumbnail-experto col-xs-12">
+          <div class="col-md-1"></div>
+          <div class="col-md-10">
+              <h3>Experto en Sexualidad humana Educación Sexual </h3>
+          </div>
+          <div class="col-md-1"></div>
+        </div>   
+        </div>
+        <div class="col-sm-12 col-md-4"> 
+        <div class="label thumbnail-promocion col-xs-12">
+          <div class="col-md-1"></div>
+          <div class="col-md-10">
+            <h3>Máster en Promoción de la <br>Salud Sexual </h3>             
+          </div>
+          <div class="col-md-1"></div>
+        </div>   
+        </div>
+        <div class="col-sm-12 col-md-4"> 
+        <div class="label thumbnail-clinica col-xs-12">
+          <div class="col-md-1"></div>
+          <div class="col-md-10">
+              <h3>Máster en Salud Sexual y Sexología Clínica </h3>
+          </div>
+          <div class="col-md-1"></div>
+        </div>   
+        </div>
+      </div>
    </div>
-  </div>
-  <div class="col-md-1"></div>
-</div>
-
-
-<div class="container">
-  <div class="row row-m-t"> 
-    <section class="">
-      <div class="container">
-
-            <div class="col-md-12  bg-uned fondo-libros text-center" >
-              <div class="col-md-12">
-              <h2 class="section-heading text-white">Nuestra oferta formativa</h2>
-                  <hr class="light">
-                  <p class="text-faded" aria-expanded="false">El programa de Formación en
-                  <a href="http://www2.uned.es/saludsexual/youtube1.htm" style="color:white;"><u>Salud Sexual de la UNED</u></a>
-                  da respuesta a una
-                  necesidad ampliamente sentida entre diferentes grupos profesionales. Este
-                  programa universitario proporciona un marco formativo de calidad y con el máximo
-                  rigor científico y técnico. El objetivo es capacitar a nuestros alumnos para su desempeño
-                  profesional como sexólogos, en los distintos ámbitos en que se desarrollen su trabajo
-                  (Educación para la salud sexual. Promoción de la salud sexual, Sexología clínica),
-                  ofreciéndoles un completo programa de formación teórico-práctico</p>
-                </div>
-                <div class="col-md-12">  
-                  <a href="#" class="btn btn-success btn-xl" data-sr-id="6">Inscríbete!</a>
-                </div>
-            </div>
-
-      </div>
-    </section>    
-  </div>
-</div>
-
-
-   
-<!-- THUMBNAILS -->
-
-    <div class="row row-m-t"> 
+ </div>
 
 
 
-        <div class="col-xs-12 col-md-12 text-center">
-        <h2>Programa modular de formación en Salud Sexual</h2>
-        <hr>
-          <div class="col-sm-12 col-md-4"> 
-          <div class="label thumbnail-experto col-xs-12">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
-                <h3>Experto en Sexualidad humana Educación Sexual </h3>
-            </div>
-            <div class="col-md-1"></div>
-          </div>   
+
+  <div class="container box">
+      <div class="row row-m-t"> <div class="content">
+        <div class="col-xs-12 col-md-12 text-center ">
+          <div class="col-lg-12 text-center">
+          <h2 class="section-heading">¿Por qué estudiar en la UNED?</h2>
+          <hr class="primary">
           </div>
-          <div class="col-sm-12 col-md-4"> 
-          <div class="label thumbnail-promocion col-xs-12">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
-              <h3>Máster en Promoción de la <br>Salud Sexual </h3>             
-            </div>
-            <div class="col-md-1"></div>
-          </div>   
-          </div>
-          <div class="col-sm-12 col-md-4"> 
-          <div class="label thumbnail-clinica col-xs-12">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
-                <h3>Máster en Salud Sexual y Sexología Clínica </h3>
-            </div>
-            <div class="col-md-1"></div>
-          </div>   
-          </div>
-
-        </div>
-
-
-      </div>
-
-
-
-
-<div class="container box">
-    <div class="row row-m-t"> <div class="content">
-      <div class="col-xs-12 col-md-12 text-center ">
-        <div class="col-lg-12 text-center">
-        <h2 class="section-heading">¿Por qué estudiar en la UNED?</h2>
-        <hr class="primary">
-        </div>
-              <div class="row">
-          <div class="col-lg-3 col-md-6 text-center">
-              <div class="service-box">
-                  <i class="fa fa-4x fa-clock-o text-uned sr-icons"></i>
-                  <h3>Es el momento</h3>
-                  <p class="text-muted">La formación en sexología representa ahora una <b>excelente oportunidad profesional.</b></p>
-              </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-              <div class="service-box">
-                  <i class="fa fa-4x fa-trophy text-uned sr-icons"></i>
-                  <h3>Calidad </h3>
-                  <p class="text-muted">El programa de Formación en Salud Sexual de la UNED es una oferta de la <b>máxima calidad</b> en
-            los ámbitos de la salud, la educación y la intervención social y comunitaria.</p>
-              </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-              <div class="service-box">
-                  <i class="fa fa-4x fa-handshake-o text-uned sr-icons"></i>
-                  <h3>Profesionalidad </h3>
-                  <p class="text-muted">Las titulaciones que ofrece este programa modular son las idóneas para el <b>desarrollo profesional</b>
-             de educadores, enfermeras, matronas, psicólogos y médicos.</p>
-              </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-              <div class="service-box">
-                  <i class="fa fa-4x fa-graduation-cap text-uned sr-icons"></i>
-                  <h3>Formación </h3>
-                  <p class="text-muted">Los objetivos que se tratan de alcanzar con este programa de cubren las <b>principales áreas de formación personal y profesional</b> de nuestros estudiantes.</p>
-              </div>
-          </div>
-      </div>
-
-
-        <section id="comoSon">
-            <div class="container">
                 <div class="row">
-                    
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-clock-o text-uned sr-icons"></i>
+                    <h3>Es el momento</h3>
+                    <p class="text-muted">La formación en sexología representa ahora una <b>excelente oportunidad profesional.</b></p>
                 </div>
             </div>
-            <div class="container">
-
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-trophy text-uned sr-icons"></i>
+                    <h3>Calidad </h3>
+                    <p class="text-muted">El programa de Formación en Salud Sexual de la UNED es una oferta de la <b>máxima calidad</b> en
+              los ámbitos de la salud, la educación y la intervención social y comunitaria.</p>
+                </div>
             </div>
-        </section>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-handshake-o text-uned sr-icons"></i>
+                    <h3>Profesionalidad </h3>
+                    <p class="text-muted">Las titulaciones que ofrece este programa modular son las idóneas para el <b>desarrollo profesional</b>
+               de educadores, enfermeras, matronas, psicólogos y médicos.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-graduation-cap text-uned sr-icons"></i>
+                    <h3>Formación </h3>
+                    <p class="text-muted">Los objetivos que se tratan de alcanzar con este programa de cubren las <b>principales áreas de formación personal y profesional</b> de nuestros estudiantes.</p>
+                </div>
+            </div>
+        </div>
 
+
+          <section id="comoSon">
+              <div class="container">
+                  <div class="row">
+                      
+                  </div>
+              </div>
+              <div class="container">
+
+              </div>
+          </section>
+
+      </div>
     </div>
   </div>
 </div>
-
 <!--FOOTER-->
-<div class="footer col-lg-12 lineaCol" >
+<footer class="container-fluid">
+
   <div class="col-lg-4 lineaCol">
     <ol>
       <li><a>una cosa</a></li>
@@ -297,13 +295,16 @@
     </ul>
   </div>
 
-  <div class="col-lg-12 lineaCol">© 2015 Salud sexual
+  <div class="col-lg-12 lineaCol">
+  © 2015 Salud sexual
   </div>
-</div>
+
+</footer>
 
 
 <script type="text/javascript" src="assets/jquery/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/custom.js"></script>
 
 </body>
 </html>
