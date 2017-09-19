@@ -95,9 +95,29 @@ labels.less:9
    border-radius: 15px;
    margin-bottom: 15px;
 }
+.thumbnail-fundacionuned{
+   background-color: #689657;
+   padding: 1.1em;
+   border-radius: 15px;
+   margin-bottom: 15px;
+}
 
 .thumbnail-promocion{
   background-color: #FFDB00;
+  border-radius: 15px;
+  padding: 1.1em;
+  margin-bottom: 15px;
+}
+
+.thumbnail-videopresentacion{
+  background-color: #FFDB00;
+  border-radius: 15px;
+  padding: 1.1em;
+  margin-bottom: 15px;
+}
+
+.thumbnail-matricula{
+  background-color: #f7f274;
   border-radius: 15px;
   padding: 1.1em;
   margin-bottom: 15px;
@@ -122,11 +142,11 @@ body{
   border: 1px solid red; 
 }
 
-.footer{
+.footer-custom{
 
-  width: 100%;
+  bottom: 0%;
   background-color: #555555;
-  padding:0 !important;
-  margin:0 !important;
+  margin: 0 auto;
+
 }
 
