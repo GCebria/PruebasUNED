@@ -275,7 +275,12 @@ body{
 
 .bg-matricula {
   background: url('../images/matricula.jpg') no-repeat center center;
-
+}
+.bg-educacion {
+  background: url('../images/educacion.jpg') no-repeat center center;
+}
+.bg-clinica {
+  background: url('../images/clinica.jpg') no-repeat center center;
 }
 
 .jumbotron {
