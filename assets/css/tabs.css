@@ -96,7 +96,7 @@ label .fa {
   margin: 0 0.4em 0 0;
 }
 
-/*Media query*/
+/*Media query
 @media only screen and (max-width: 930px) {
   label span {
     font-size: 14px;
@@ -118,7 +118,7 @@ label .fa {
   .tab_container {
     width: 98%;
   }
-}
+}*/
 
 /*Content Animation*/
 @keyframes fadeInScale {
