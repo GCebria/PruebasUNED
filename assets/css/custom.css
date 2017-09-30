@@ -73,11 +73,21 @@ labels.less:9
 .row-m-t{
   margin-top : 20px
 }
+.row-m-med{
+  margin-top : 40px
+}
+.row-m-max{
+  margin-top : 80px
+}
 
 .carousel-inner > .item > img {
   width:640px;
   height:360px;
   width: 100%;
+}
+
+.video{
+text-align: center;
 }
 
 .thumbnail {
@@ -255,4 +265,25 @@ body{
   transform: rotate(3deg);
   right: 10px;
   left: auto;
+}
+
+
+.bg-metodologia {
+  background: url('metodologia.jpg') no-repeat center center;
+
+}
+
+.bg-matricula {
+  background: url('../images/matricula.jpg') no-repeat center center;
+
+}
+
+.jumbotron {
+/*
+  margin-bottom: 0px;
+  height: 350px;
+}*/
+  text-shadow: black 0.3em 0.3em 0.3em;
+  color: white;
+  background:transparent;
 }
