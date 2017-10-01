@@ -292,3 +292,21 @@ body{
   color: white;
   background:transparent;
 }
+
+.cuadraditos{
+ height: 293px;
+ width: 296px;
+ align-content: center;
+}
+
+.cuadraditos img{
+ height: 240px;
+ width: 243px;
+ -webkit-transition: width 2s, height 2s; /* For Safari 3.1 to 6.0 */
+ transition: width 2s, height 2s;
+}
+.cuadraditos img:hover {
+ height: 293px;
+ width: 296px;
+
+}
