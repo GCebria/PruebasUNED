@@ -80,6 +80,11 @@ labels.less:9
   margin-top : 80px
 }
 
+body {
+  font-family: "Verdana";
+  font-size: 150%;
+}
+
 .carousel-inner > .item > img {
   width:640px;
   height:360px;
@@ -181,6 +186,7 @@ body{
 }
 
 .boxshadow {
+  font-size: 110%;
     position: relative;
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 0px rgba(0, 0, 0, 0.1) inset;
        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 0px rgba(0, 0, 0, 0.1) inset;
