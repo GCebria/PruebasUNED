@@ -1,3 +1,9 @@
+html, body {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
 /* Remove the navbar's default margin-bottom and rounded borders */
 .navbar {
   margin-bottom: 0;
@@ -28,6 +34,12 @@ footer {
     padding: 15px;
   }
   .row.content {height:auto;}
+
+  .boxshadow{
+    margin-left: 2px;
+    margin-right: 1px;
+
+  }
 }
 
 /*LABELS*/
@@ -80,10 +92,6 @@ labels.less:9
   margin-top : 80px
 }
 
-body {
-  font-family: "Verdana";
-  font-size: 150%;
-}
 
 .carousel-inner > .item > img {
   width:640px;
@@ -194,6 +202,8 @@ body{
     padding: 10px;
     background: #F7F7F7;
 }
+
+
 
 .boxshadow::after , .boxshadow:after{
   content:"";
