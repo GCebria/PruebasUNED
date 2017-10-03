@@ -87,8 +87,32 @@ label {
   box-shadow: inset 0 3px #0CE;
 }
 
+.tab_container-clinica [id^="tab"]:checked + label {
+  background: #fff;
+    box-shadow: inset 0 5px #ab5aa4;
+}
+.tab_container-experto [id^="tab"]:checked + label {
+  background: #fff;
+  box-shadow: inset 0 5px #0699cd;
+}
+.tab_container-promocion [id^="tab"]:checked + label {
+  background: #fff;
+  box-shadow: inset 0 5px #FFDB00;
+}
+
+
+
 .tab_container [id^="tab"]:checked + label .fa {
   color: #0CE;
+}
+.tab_container-clinica [id^="tab"]:checked + label .fa {
+  color: #ab5aa4;
+}
+.tab_container-experto [id^="tab"]:checked + label .fa {
+  color: #0699cd;
+}
+.tab_container-promocion [id^="tab"]:checked + label .fa {
+  color: #FFDB00;
 }
 
 label .fa {
