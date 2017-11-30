@@ -215,7 +215,7 @@ text-align: center;
 }
 
 .thumbnail-experto{
-   background-color: #79c7c7;
+   background-color: #54bfbf;
    padding: 1.1em;
    border-radius: 15px;
    margin-bottom: 15px;
@@ -234,7 +234,7 @@ text-align: center;
 }
 
 .thumbnail-promocion{
-  background-color: #FFDB00;
+  background-color: #d6c45c;
   border-radius: 15px;
   padding: 1.1em;
   margin-bottom: 15px;
@@ -255,10 +255,9 @@ text-align: center;
 }
 
 .thumbnail-clinica{
-   background-color: #C797C3;
+   background-color: #b48eb8;
    margin-bottom: 15px;
-
-border-radius: 15px;
+   border-radius: 15px;
 }
 
 .color-clinica{
