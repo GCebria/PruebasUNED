@@ -418,19 +418,19 @@ body{
 
 
 .cuadraditos{
- height: 293px;
+ height: 400px;
  align-content: center;
 }
 
 .cuadraditos img{
- height: 240px;
- width: 243px;
+ height: 300px;
+ width: 300px;
  -webkit-transition: width 2s, height 2s; /* For Safari 3.1 to 6.0 */
  transition: width 2s, height 2s;
 }
 .cuadraditos img:hover {
- height: 293px;
- width: 296px;
+ height: 400px;
+ width: 400px;
 
 }
 
@@ -468,12 +468,18 @@ body{
   color: black;
   font-size: 30px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .caja-texto p{
   text-align: justify;
   text-justify: inter-word;
   color:black;
+}
+
+.caja-texto a{
+  
+  color:navy;
 }
 
 .checked {
